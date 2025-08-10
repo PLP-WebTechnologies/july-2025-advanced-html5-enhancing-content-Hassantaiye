@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week two assignment</title>
+</head>
+<body>
+    <header><h2>week two assignment</h2></header>
+    <main>
+        <h3>definition list</h3>
+        <dl>
+            <dt>usa</dt>
+            <dd>united state of america</dd>
+            <dt>uae</dt>
+            <dd>united arab emirate</dd>
+        </dl>
+        <h2>nested list</h2>
+        <ol>
+            <li>cars
+                <ol type="i">
+                    <li>toyota
+                        <ol type="a">
+                            <li>camry</li>
+                            <li>corola</li>
+                        </ol>
+                    </li>
+                    <li>bentley</li>
+                    <li>nissan</li>
+                </ol>
+            </li>
+            <li>motorbike
+                <ul>
+                    <li>bajaj</li>
+                    <li>yaaha</li>
+                    <li>kwasaki</li>
+                </ul>
+
+            </li>
+        </ol>
+        <h2>tables</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>s/n</th>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>sex</th>
+                    <th>phone number</th>
+                    <th>country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>hassan</td>
+                    <td>10</td>
+                    <td>m</td>
+                    <td>089478</td>
+                    <td>nigeria</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>hassan</td>
+                    <td>10</td>
+                    <td>m</td>
+                    <td>089478</td>
+                    <td>usa</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>hassan</td>
+                    <td>10</td>
+                    <td>m</td>
+                    <td>089478</td>
+                    <td>ghana</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>hassan</td>
+                    <td>10</td>
+                    <td>m</td>
+                    <td>089478</td>
+                    <td>india</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>audio</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+        <h3>video</h3>
+        <video width="500" height="300" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag or the video file could not be loaded.
+        </video>
+
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <br><br>
+            <label for="gmail">Gmail</label>
+            <input type="gmail" id="gmail" name="email" required>
+            <br><br>
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <br><br>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" required minlength="8">
+            <br><br>
+            <label for="gender">gender:</label>
+            <select name="gender" id="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+            <input list="country">
+            <datalist id="country">
+                <option value="nigeria">
+                <option value="usz">
+                <option value="ghana">
+                <option value="india">
+            </datalist>
+            <br><br>
+            <label for="comment">comment:</label>
+            <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+            <br><br>
+            <button type="submit">submit</button>
+            <input type="reset">
+        </form>
+    </main>
+</body>
+</html>
